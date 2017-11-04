@@ -103,7 +103,7 @@ void test_mv()
 
 int main()
 {
-    cnf::var_pool vp;
+	cnf::var_pool vp;
 	auto x = vp.make("x");
 	auto y = vp.make("y");
 	auto z = vp.make("z");
@@ -118,5 +118,5 @@ int main()
 	println(c0);
 	println(c1);
 	test_mv();
-    return 0;
+	return 0;
 }
